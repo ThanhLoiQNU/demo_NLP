@@ -80,10 +80,10 @@
             <div class="result">
     <h2>Accuracy:</h2>
     {% if rf_accuracy %}
-    <p>Random Forest Accuracy: {{ rf_accuracy|round(2)% }}</p>
+    <p>Random Forest Accuracy: {{ rf_accuracy|round(2) }}</p>
     {% endif %}
     {% if rnn_accuracy %}
-    <p>RNN Accuracy: {{ rnn_accuracy|round(2)% }}</p>
+    <p>RNN Accuracy: {{ rnn_accuracy|round(2) }}</p>
     {% endif %}
 </div>
             <input type="submit" value="Predict">
